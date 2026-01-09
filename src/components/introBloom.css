@@ -1,0 +1,42 @@
+.bloom-stage {
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at center, #050505, #000);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 9999;
+}
+
+.flower {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  animation: bloom 2s ease-out forwards;
+}
+
+.bloom-text {
+  position: relative;
+  font-size: clamp(2.8rem, 6vw, 4.5rem);
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #fff;
+  opacity: 0;
+  transform: scale(0.9);
+  animation: namePop 0.8s ease-out forwards;
+  animation-delay: 1.6s;
+  z-index: 2;
+}
+
+@keyframes bloom {
+  0% { transform: scale(0.2); opacity: 0; }
+  60% { opacity: 1; }
+  100% { transform: scale(1); opacity: 0.35; }
+}
+
+@keyframes namePop {
+  0% { opacity: 0; transform: scale(0.9); }
+  100% { opacity: 1; transform: scale(1); }
+}

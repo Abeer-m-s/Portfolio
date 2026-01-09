@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+body {
+  background: linear-gradient(120deg, #ff9a9e, #fad0c4, #a18cd1, #84fab0);
+  background-size: 400% 400%;
+  animation: aurora 15s ease infinite;
+  color: #111;
+}
+

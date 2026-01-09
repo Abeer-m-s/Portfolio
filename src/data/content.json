@@ -1,0 +1,52 @@
+{
+  "name": "Abeer Mohamed Shajahan",
+  "role": "Computer Science Engineer | Full Stack & ML Enthusiast",
+  "intro": "I’m a 3rd year B.Tech Computer Science student at Rajiv Gandhi Institute of Technology, passionate about building real-world software systems with strong foundations and beautiful user experiences.",
+
+  "about": "I am a 3rd year B.Tech Computer Science and Engineering student at Rajiv Gandhi Institute of Technology, Kottayam. I am deeply interested in building meaningful software solutions and continuously improving myself as a developer and problem solver. My current focus areas are Full Stack Development and Machine Learning. I enjoy understanding systems end-to-end — from database design and APIs to performance, scalability, and real-world constraints. I am currently working on a Complaint Resolver and Asset Management System as a mini project. I have completed a Summer Internship at IBM, gaining exposure to industry practices and collaborative development environments. My long-term goal is to work at leading technology companies such as FAANG and contribute to impactful products.",
+
+  "skills": {
+    "programming": ["C", "Java", "Python"],
+    "web": ["HTML", "CSS", "JavaScript", "React"],
+    "databases": ["MySQL", "DBMS", "Data Warehousing", "Data Mining"],
+    "core": [
+      "Data Structures & Algorithms",
+      "OOP",
+      "Operating Systems",
+      "Computer Networks",
+      "Software Engineering",
+      "Compiler Design"
+    ],
+    "ai": ["Machine Learning", "Artificial Intelligence", "Data Science"],
+    "math": ["Discrete Mathematics", "Linear Algebra", "Graph Theory"],
+    "tools": ["Git", "VS Code"]
+  },
+
+  "projects": [
+    {
+      "title": "Complaint Resolver & Asset Management System",
+      "details": "A web-based system designed to streamline complaint handling and asset tracking. Features include complaint registration, status tracking, asset inventory, role-based access, and centralized data storage. Technologies: HTML, CSS, JavaScript, Java (planned), MySQL."
+    },
+    {
+      "title": "TCP Chat Application",
+      "details": "Client–server chat application using TCP sockets enabling real-time communication between multiple clients. Concepts used: TCP/IP, socket programming, blocking I/O."
+    },
+    {
+      "title": "UDP Client–Server Communication",
+      "details": "Implemented connectionless communication using UDP to explore packet transmission and message handling."
+    }
+  ],
+
+  "certifications": [
+    "Full Stack Development – CGPC, RIT",
+    "TCS Online Course – Professional Skills",
+    "Placement-Oriented Training (DSA & AAAD)"
+  ],
+
+  "contact": {
+    "email": "abeerfathima0@gmail.com",
+    "linkedin": "www.linkedin.com/in/abeer-mohamed-shajahan-23126b316",
+    "github": "https://github.com/Abeer-m-s",
+    "location": "Kollam, Kerala, India"
+  }
+}
